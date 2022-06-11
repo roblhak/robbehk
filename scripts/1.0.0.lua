@@ -3,7 +3,7 @@ print("made by roblhak, version: 1.0.0")
 local ScreenGui = Instance.new("ScreenGui")
 local EndGame = Instance.new("TextLabel")
 
-ScreenGui.Parent = game.StarterGui;
+ScreenGui.Parent = game.GuiService;
 
 EndGame.Name = "EndGame"
 EndGame.Parent = ScreenGui
